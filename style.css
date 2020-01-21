@@ -1,0 +1,33 @@
+body { 
+    background-color: grey;
+    color:black;
+   
+
+      
+.education {
+    border: 10px ridge #f00;
+    background-color: #ff0;
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+header.page-header∏{
+    background: no-repeat left/cover url(/media/examples/puppy-header-logo.jpg);
+    display: flex;
+    height: 120px;
+    min-width: 120px;
+    align-items: center;
+    color: #fff;
+    text-shadow: #000 0 0 .2em;
+
+}
+header {
+    display: block;
+  }
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
+
+*{ font-family: 'Roboto', sans-serif; }
+#div-id {font-color:#fff}
