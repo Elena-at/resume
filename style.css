@@ -1,33 +1,71 @@
 body { 
-    background-color: grey;
-    color:black;
-   
-
-      
-.education {
-    border: 10px ridge #f00;
-    background-color: #ff0;
-    padding: .5rem;
-    display: flex;
-    flex-direction: column;
-}
-
-header.page-header∏{
-    background: no-repeat left/cover url(/media/examples/puppy-header-logo.jpg);
-    display: flex;
-    height: 120px;
-    min-width: 120px;
-    align-items: center;
-    color: #fff;
-    text-shadow: #000 0 0 .2em;
-
-}
-header {
-    display: block;
+  background: white;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  margin: 20px;
   }
 
-  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+img {
+    border-radius: 50%;
+  }
+
+h1{ 
+    color: rgb(235, 228, 228);
+    font-size: 28px;
+}
+
+h2 {
+    color: rgb(60, 117, 90);
+    font-size: 25px;
+    line-height: 32px;
+ }
+  
+h3 {
+    color: rgb(60, 117, 90);
+    font-size: 20px;
+    margin-top: -10px;
+  }
+  
+h4 {
+    color: rgb(60, 117, 90);
+    font-size: 16px;
+    font-weight: 100;
+    text-align: left;
+  }
+
+  /********* Header ********/
+
+header {
+    padding: 16px;
+    margin-top: 20px;
+    block-size: 180px;
+    background-color:rgb(60, 117, 90);
+}
+
+.summary h3, p {
+    color: rgb(235, 228, 228)
+}
+
+    /********* Main ***********/
+
+li {
+   font-size: 15px;
+}
+
+.education p{
+    color:black;
+    font-size: 15px;
+}
+
+.education time{
+font-size: 10px;
+font-style: italic;
+color: rgb(60, 117, 90)
+}
 
 
-*{ font-family: 'Roboto', sans-serif; }
-#div-id {font-color:#fff}
+.workexperience{
+align-items: baseline;
+flex-direction: column;
+
+}
